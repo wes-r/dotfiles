@@ -120,5 +120,5 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 
-" Use jk to escape insert mode
+" Use jk to escape from insert mode
 imap jk <Esc>
