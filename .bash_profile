@@ -46,3 +46,10 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Setup go PATH
+export GOPATH=~/go
+export PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
+
+# Setup postgres PATH
+export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
