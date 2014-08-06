@@ -10,7 +10,7 @@ Plugin 'gmarik/Vundle.vim'
 " Easily comment lines with gcc or gc or \\
 Plugin 'tpope/vim-commentary'
 " Add golang syntax highlighting
-Plugin 'jnwhiteh/vim-golang'
+Plugin 'fatih/vim-go.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
