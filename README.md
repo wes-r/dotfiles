@@ -1,3 +1,14 @@
+# Wes's changes
+
+Use MacVim's vim or compile vim from source with:
+```
+hg clone https://code.google.com/p/vim/
+cd vim
+./configure --enable-rubyinterp=dynamic --enable-cscope --enable-gui=auto --enable-gtk2-check --enable-gnome-check --with-features=huge --with-x --enable-pythoninterp --prefix=/opt/local
+make
+sudo make install
+echo 'PATH=/opt/local/bin:$PATH' >> ~/.bash_profile
+```
 # Mathias’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)

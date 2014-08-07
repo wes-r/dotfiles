@@ -53,3 +53,6 @@ export PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
 
 # Setup postgres PATH
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+
+# Use custom vim
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"

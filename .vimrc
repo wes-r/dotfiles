@@ -11,6 +11,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-commentary'
 " Add golang syntax highlighting
 Plugin 'fatih/vim-go.git'
+" Add YouCompleteMe for auto-completing goodness
+Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
