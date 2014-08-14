@@ -12,3 +12,6 @@ nmap gd <Plug>(go-def)
 
 " Run go stuff
 " nmap <Leader>t <Plug>(go-test)
+
+" Restrict down to a column size of 80
+setlocal colorcolumn=80
