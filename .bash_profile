@@ -56,3 +56,7 @@ export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 
 # Use custom vim
 alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+
+# Setup RVM
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
