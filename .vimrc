@@ -13,6 +13,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go.git'
 " Add YouCompleteMe for auto-completing goodness
 Plugin 'Valloric/YouCompleteMe'
+" Add CoffeeScript support
+Plugin 'kchmck/vim-coffee-script'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
