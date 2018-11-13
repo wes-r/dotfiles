@@ -128,3 +128,6 @@ endif
 
 " Use jk to escape from insert mode
 imap jk <Esc>
+
+" Setup git commit spell checking and wrapping
+autocmd Filetype gitcommit setlocal spell textwidth=72
